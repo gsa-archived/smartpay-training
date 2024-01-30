@@ -61,7 +61,7 @@
       >
         <td>
           <img 
-            :src="card_src(cert.quiz_name)" 
+            :src="card_src(cert.quiz_name.src)" 
             class="text-middle margin-right-1" 
             :style="{height:'1.5rem'}" 
             aria-hidden="true" 
