@@ -76,4 +76,4 @@ jobs:
           DO_SETUP: true
           SETUP_EXTRA_OPTS: --assessment-type "Static+"
           DO_EXPORT: true                                # Export SAST results to GitHub code scanning dashboard
-          PACKAGE_EXTRA_OPTS: --exclude "**/*.cs"
+          PACKAGE_EXTRA_OPTS: --exclude "/**/node_modules/"
